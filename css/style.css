@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    background-color: #0D1926;
+    display: flex;
+}
+
+.w50 {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.menu {
+    text-align: right;
+    font-size: large;
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+section.banner {
+    width: 100%;
+    min-height: 500px;
+    background-image: url(../image/graficos.jpg);
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Play', sans-serif;
+    padding: 90px 0;
+    color: #D8D8D8;
+}
+
+section.diferenciais {
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+.w33 {
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    font-family: 'Anton', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    .w33,
+    .w50 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
